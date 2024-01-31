@@ -2,7 +2,7 @@ import pyxdf
 import numpy as np
 import pathlib
 import mne
-
+import pandas as pd 
 def read_xdf(fname):
     """
     fname = pathlib object to .xdf file
